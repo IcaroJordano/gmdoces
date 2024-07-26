@@ -1,0 +1,62 @@
+.Text{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    width: 28%;
+    /* margin-top: 8%; */
+    padding-left: 10%;
+}
+.Text h2{
+    display: flex;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 31, 6);
+    margin-bottom: 0%;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+.Text p{
+    font-size: large;
+    opacity: 0.7;
+}
+.Text button{
+    background-color: rgb(247, 210, 0);
+    opacity: 0.5;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 6vmin;
+    color: rgb(255, 255, 255);
+    /* font-weight: 1px; */
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Text .Links{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.Text .Link{
+    background-color: rgb(49, 31, 6);
+    /* background-color: brown; */
+    /* color: aliceblue; */
+    width: 30px;
+    margin-right: 1px;
+    height: 30px;
+    border-radius: 5px;
+    /* font-size: 50px; */
+    display: flex;
+    cursor: pointer;
+    padding: 0px;
+}
+svg{
+    display: flex;
+    margin: auto;
+    font-size: large;
+    color: antiquewhite;
+}

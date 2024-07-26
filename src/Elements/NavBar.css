@@ -1,0 +1,55 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 80%;
+    height: 18%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+    /* filter: drop-shadow(2px 2px 2px rgb(0, 0, 0) );*/
+    box-shadow: 1px 1px 12px rgba(83, 13, 72, 0.575);
+    padding: 0%;
+    right: 10%;
+    /* position: fixed; */
+}
+.NavBar img{
+    /* opacity: 0.9; */
+    display: flex   ;
+    width: 12cqmin;
+    height:12cqmin;
+    margin-right: 5%;
+    /* margin-top:3vmin;    */
+    margin-left: 2%;
+
+    scale: 0.9 ;
+}
+.NavBar img:hover{
+    scale: 1.0 ;
+    filter: drop-shadow(4px 4px 8px pink );
+}
+
+.Links{
+    /* background-color: black; */
+    justify-content: space-between;
+    display: flex;
+    height: 10vmin;
+    width: 25vmax;  
+    align-items: center;
+    margin-right: 2%;
+    /* margin-bottom: 1px; */
+}
+.Links a{
+    font-size:larger;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Links a:hover{
+    filter: drop-shadow(1px 1px 8px rgb(255, 0, 212) );
+}
