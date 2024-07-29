@@ -1,16 +1,21 @@
 .Home{
     /* margin: 0%; */
     display: flex;
-    width: 96%;
-    height: 90vmin;
-    background-position: center;
+    /* width: 100vmax; */
+    height: 100vb;
+    /* background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
     flex-direction: column;
+    border:solid 1px black;
     /* background-color: rgba(18, 17, 29, 0.733); */
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
+    /* margin-left: 1%; */
+    /* margin-top: 1%; */
 }
 .secao{
     display: flex;

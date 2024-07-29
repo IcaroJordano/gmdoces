@@ -15,7 +15,7 @@
     /* filter: drop-shadow(2px 2px 2px rgb(0, 0, 0) );*/
     box-shadow: 1px 1px 12px rgba(83, 13, 72, 0.575);
     padding: 0%;
-    right: 10%;
+    /* right: 10%; */
     /* position: fixed; */
 }
 .NavBar img{

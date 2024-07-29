@@ -1,6 +1,17 @@
 .Criadores{
-    margin-top: 1px;
+    margin-top: 10vmin;
     /* background-color:antiquewhite; */
     height: 60vmin;
-    border: solid 1px black;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.Criadores .cards{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    /* flex-direction: row; */
+    justify-content: space-around;
+} 

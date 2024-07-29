@@ -1,6 +1,27 @@
 .Shoping{
     margin-top: 1px;
     /* background-color:antiquewhite; */
-    height: 90vmin;
-    border: solid 1px black;
+    height: 100vmin;
+    /* border: solid 1px black; */
+    display: flex;
+
+    margin-top: 10vmin;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    /* width: 200vmax; */
+    /* overflow: scroll; */
+    /* background-color: aquamarine; */
+    float: none;
+    justify-content: space-around;
+}
+.Shoping a{
+    display: flex;
+    /* margin-right: 0px; */
+    /* margin-top: 0%; */
+    /* background-color: aqua; */
 }

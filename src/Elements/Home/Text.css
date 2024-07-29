@@ -2,15 +2,17 @@
     display: flex;
     flex-direction: column;
     /* background-color: aquamarine; */
-    width: 28%;
+    width: 35%;
     /* margin-top: 8%; */
-    padding-left: 10%;
+    padding-left: 13%;
+    scale: 1.2;
+    margin-top: 5%;
 }
 .Text h2{
     display: flex;
-    font-size: 45px;
+    font-size: 40px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(49, 31, 6);
+    color: rgb(34, 20, 0);
     margin-bottom: 0%;
     opacity: 0.9;
     font-weight: bolder;
@@ -42,7 +44,7 @@
 }
 
 .Text .Link{
-    background-color: rgb(49, 31, 6);
+    background-color: rgb(34, 20, 0);
     /* background-color: brown; */
     /* color: aliceblue; */
     width: 30px;

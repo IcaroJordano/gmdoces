@@ -1,7 +1,7 @@
 import "./Home.css"
-import NavBar from "../Elements/NavBar"
-import Text from "../Elements/Text"
-import imagem from "../Elements/imagem.png"
+import NavBar from "../Elements/Home/NavBar"
+import Text from "../Elements/Home/Text"
+// import imagem from "../Elements/imagem.png"
 function Home(){
     return(
         <div className="Home">

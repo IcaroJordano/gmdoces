@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-left: 1%;
+    width: 22%;
+    height: 60vmin;
+    overflow:hidden ;
+    border: solid 1px black;
+    /* background-color: aqua; */
+    /* margin-right: 10vmax; */
+}
+img{
+    width: 90%;
+}
+.card div{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.like{
+    /* border-radius: 45px; */
+    margin-left: 60%;
+    width: 23px;
+    height: 23px;
+    border: solid 1px black;}
+.add{
+    width: 35%;
+    height: 45px;
+    border-radius: 15px;
+    /* color: white; */
+    border: solid 1px black;
+    /* background-color: red; */
+}

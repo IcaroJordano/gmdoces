@@ -1,0 +1,28 @@
+.content{
+    width: 25%;
+    height: 60vmin;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    display: flex;
+    border: solid 1px black;
+}
+.imagem{
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    background-image: url("https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.imagem h3{
+    border: solid 1px black;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 4vmax;
+    height: 5vmax;
+    /* background-color: aquamarine; */
+}
+.imagem p{
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 90%;
+    color: red;
+}

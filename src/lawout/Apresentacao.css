@@ -1,8 +1,25 @@
 .Apresentacao{
-
-    margin-top: 1px;
+    display: flex;
+    margin-top: 5%;
     /* background-color:antiquewhite; */
-    height: 70vmin;
+    height: 50vmin;
     /* border: solid 1px black; */
 }
-/* body{background-color: antiquewhite;} */
+.left{
+    width: 40%;
+}
+.Apresentacao img{
+    width: 10vmax;
+    height: 10vmax;
+    border-radius:90px;
+    /* border: solid 1px black; */
+}
+.right{
+    display: flex;
+}
+.Apresentacao p{
+    width: 10vmax;
+}
+.collection{
+    margin-left: 20%;
+}
