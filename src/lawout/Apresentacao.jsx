@@ -9,15 +9,15 @@ function Apresentacao(){
                 </div>
                 <div className="right">
                     <div className="collection">
-                    <a href=""><img src={produto} alt="" /></a>
-                    <p>There are some redeming factors in greeink text</p>
+                        <img src={produto} alt="" />
+                        <p className="descricao">There are some redeming factors in greeink text</p>
                     </div>
                     <div className="collection">
-                    <a href=""><img src={produto} alt="" /></a>
-                    <p>There are some redeming factors in greeink text</p></div>            
+                        <img src={produto} alt="" />
+                        <p className="descricao">There are some redeming factors in greeink text</p></div>            
                     <div className="collection">
-                    <a href=""><img src={produto} alt="" /></a>
-                    <p>There are some redeming factors in greeink text</p></div>
+                        <img src={produto} alt="" />
+                        <p className="descricao">There are some redeming factors in greeink text</p></div>
 
                 </div>
         </div>

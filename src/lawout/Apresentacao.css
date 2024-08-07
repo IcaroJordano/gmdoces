@@ -3,6 +3,7 @@
     margin-top: 5%;
     /* background-color:antiquewhite; */
     height: 50vmin;
+    width: 100%;
     /* border: solid 1px black; */
 }
 .left{
@@ -17,9 +18,15 @@
 .right{
     display: flex;
 }
-.Apresentacao p{
-    width: 10vmax;
-}
-.collection{
-    margin-left: 20%;
+@media(max-width:425px){
+    .collection {
+        margin-right: 5px;
+    }
+    .descricao{
+        font-size:8px ;
+    }
+    .right {
+        display: flex;
+        padding-top: 15%;
+    }
 }

@@ -35,14 +35,12 @@
     font-weight: bolder;
     cursor: pointer;
 }
-
 .Text .Links{
     /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
     width: 30%;
 }
-
 .Text .Link{
     background-color: rgb(34, 20, 0);
     /* background-color: brown; */
@@ -60,5 +58,42 @@ svg{
     display: flex;
     margin: auto;
     font-size: large;
-    color: antiquewhite;
+    color: white;
+}
+@media(max-width:425px){
+    .Text{
+        width: 50%;
+        /* background-color: yellowgreen; */
+    }
+    .Text h2{
+        font-size: 3vmax;
+        margin-top: 5%;
+    }
+    .Text p{
+        margin-top: 1%;
+        font-size:3vmin;       
+    }
+    .Text button{
+        /* margin-top: 1%; */
+        width: 30%;
+        font-size: 2vw;
+        height: 5vmin;
+        margin: 0%;
+    }
+    .Text .Links{
+        height: 4vmin;
+        width: 30%;
+    }
+    .Text .Link{
+        margin-left: 10%;
+        margin-top: 10%;
+        border-radius: 25%;
+        /* margin: 0%; */
+        width: 10px;
+        height:10px;
+}
+    svg{
+        color: white;
+        font-size:7px;
+    }    
 }

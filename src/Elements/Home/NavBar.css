@@ -33,7 +33,6 @@
     scale: 1.0 ;
     filter: drop-shadow(4px 4px 8px pink );
 }
-
 .Links{
     /* background-color: black; */
     justify-content: space-between;
@@ -52,4 +51,23 @@
 }
 .Links a:hover{
     filter: drop-shadow(1px 1px 8px rgb(255, 0, 212) );
+}
+@media (max-width:425px){
+    .NavBar img{
+        margin-left: 5%;
+    }
+    .NavBar{
+        display: flex;
+        position:fixed;
+        height: 15vmin;
+        width:90%;
+        margin-left: 5%;
+        opacity: 1.0;
+    }
+    .Links{
+        width: 50%;
+    }
+    .Links a{
+        font-size: small;
+    }
 }
