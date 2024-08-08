@@ -5,10 +5,10 @@ function Criadores(){
     return(
         <>
         <div className="Criadores">
-            <h1>------------------- CRIADORES ---------------------</h1>
+            <h1 className="h1">---- CRIADORES -----</h1>
             <div className="cards">
-                <CardCriador></CardCriador>
-                <CardCriador></CardCriador>
+                <CardCriador className="card" ></CardCriador>
+                <CardCriador className="card"></CardCriador>
             </div>
         </div>
         </>

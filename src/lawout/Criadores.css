@@ -1,17 +1,29 @@
 .Criadores{
     margin-top: 10vmin;
     /* background-color:antiquewhite; */
-    height: 60vmin;
+    height: 80vh;
     /* border: solid 1px black; */
     display: flex;
+    /* grid-template-rows: 1fr 1fr; */
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 .Criadores .cards{
-    margin-top: 5%;
-    width: 100%;
-    display: flex;
-    /* background-color: aqua; */
-    /* flex-direction: row; */
+
+    /* display: flex; */
+    margin: 0% auto;
+    /* background-color: aquamarine; */
+    /* padding-bottom: 10%; */
     justify-content: space-around;
-} 
+    /* height: 50vh; */
+    padding: auto;
+}
+.Criadores .card{
+    display: flex;
+    margin-top: 10%;
+}
+.card{
+    margin-top: 10%;
+}
+.h1{height: 5%;font-size: 7vw; text-align: center;
+margin-bottom: 10%;}
