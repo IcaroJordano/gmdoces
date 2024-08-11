@@ -1,37 +1,72 @@
 .card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border-radius: 3%;
     margin: 0%;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     /* justify-content: center; */
-    padding-left: 1%;
-    /* background-color: yellowgreen; */
-    width: 25vw ;                                                                           ;
-    /* height: 0vh; */
+    /* padding-left: 1%; */
+    background-color: white;
+    width: 22vw ;                                                                           ;
+    height: 58vh;
+    margin-top: 5vh;
     overflow:hidden ;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     /* margin-right: 10vmax; */
 }
 img{
-    width: 90%;
+    margin: 5% 5%;
+    width: 90%; 
+    height: 25vh;
+    border-radius: 3%;
+}
+.card h3{
+    margin: 0% 5%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: aqua; */
+}
+.card p{
+    /* font-size:small; */
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5% 5%;
 }
 .card div{
+    /* margin: 1% 0%; */
+    width: 100%;
+    /* overflow-x: scroll; */
+     /* background-color:yellow; */
     display: flex;
+    align-items: center;
     flex-direction: row;
     /* justify-content: space-between; */
 }
+.card div p{
+    font-size: larger;
+}
 .like{
     /* border-radius: 45px; */
-    margin-left: 60%;
+    /* margin-left: 60%; */
     width: 23px;
     height: 23px;
     border: solid 1px black;}
 .add{
-    width: 35%;
-    height: 45px;
+    width: 25%;
+    height: 70%;
     border-radius: 15px;
-    /* color: white; */
-    border: solid 1px black;
+    color: white;
+    background-color: rgb(255, 0, 106);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border: none;
+
+    cursor: pointer;
+    margin-right: 1%;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
     /* background-color: red; */
 }
 @media(max-width:425px){
@@ -52,4 +87,13 @@ img{
         margin: 0%;
         font-size: xx-small;
     }
+}
+.card svg{
+    cursor: pointer;
+    font-weight: bolder;
+    margin: 0% 0% 0% 20%;
+    font-size: 30px;
+    width: 15%;
+    /* background-color: black; */
+    color: grey;
 }

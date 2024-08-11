@@ -10,21 +10,20 @@ function Footer(){
                 <div className="left">
                     <div className="footerText">
                         
-                        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus omnis perspiciatis nesciunt nam voluptas provident consequuntur vero, et iure facilis! Quas ducimus minus, est fugit alias laboriosam nostrum unde sint!</p>
+                        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus omnis perspiciatis nesciunt nam voluptas provident consequuntur vero, et iure facilis!</p>
                     </div>
-                    <div className="icons_footer">
-                        <div className="Links">
-                            <div className="Link">                
+                    <div className="Links">
+                        <div className="Link">                
                                 <FaFacebook></FaFacebook>
-                            </div>
-                            <div className="Link">
+                        </div>
+                        <div className="Link">
                                 <FaLinkedin></FaLinkedin>
-                            </div>
-                            <div className="Link">
+                        </div>
+                        <div className="Link">
                                 <FaInstagram></FaInstagram>
-                            </div>
                         </div>
                     </div>
+                    
                 </div>
                 <div className="right">
                     <div className="linksFooter">

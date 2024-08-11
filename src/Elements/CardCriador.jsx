@@ -11,7 +11,7 @@ function CardCriador(){
                 </div>
             </div>
            <div className="bottom"> 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem quis eum consequatur perspiciatis molestias exercitationem quo totam expedita nesciunt mollitia? Inventore, soluta repellendus. Et ipsum natus possimus nulla repellat debitis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem quis eum consequatur perspiciatis molestias exercitationem quo totam expedita nesciunt mollitia? Inventore, soluta repellendus.</p>
            </div>
         </div>
     )

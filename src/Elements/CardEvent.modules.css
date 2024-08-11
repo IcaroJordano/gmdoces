@@ -1,28 +1,51 @@
 .content{
-    width: 25%;
+    width: 22vw;
     height: 60vmin;
     justify-content: center;
-    /* background-color: aquamarine; */
+    background-color: white;
     display: flex;
-    border: solid 1px black;
+    /* border: solid 1px black; */
+    border-radius: 3%;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 .imagem{
+    border-radius: 3%;
+    margin: 5% 5%;
     background-size: cover;
     background-position: center;
     width: 90%;
-    background-image: url("https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-image: url("./doces.jpeg");
 }
 .imagem h3{
-    border: solid 1px black;
+    /* border: solid 1px white; */
     margin-top: 10px;
+    padding-top: 5%;
     margin-left: 20px;
     width: 4vmax;
-    height: 5vmax;
-    /* background-color: aquamarine; */
+    height: 4vmax;
+    background-color: rgba(0, 0, 0, 0.397);
+    opacity: 0.9;
+    border-radius: 10%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 .imagem p{
+    background-color: rgba(0, 0, 0, 0.288);
+    /* opacity: 1; */
+    width: 100%;
+    height: 11vh;
+    border-bottom-right-radius:10%;
+    border-bottom-left-radius: 10%;
     /* background-color: aqua; */
     display: flex;
-    margin-top: 90%;
-    color: red;
+    margin: 80% auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    color: white;
+
 }

@@ -1,3 +1,5 @@
+
+import Titulo from "./../Elements/Titulo"
 import "./Shoping.css"
 import CardShoping from "./../Elements/CardShoping"
 // import Swiper core and required modules
@@ -15,12 +17,9 @@ import 'swiper/css/scrollbar';
 function Shoping(){
     return(
         <div className="Shoping" >
-            <h1>-------- SHOPPING --------</h1>
+            <Titulo text='SHOPPING'></Titulo>            
             <a href="">See  All</a>
-            <Swiper 
-      pagination={{ clickable: true }}
-           modules={[Navigation, Pagination, Scrollbar, A11y]}
- className="carroseu"  slidesPerView={3} >
+            <Swiper spaceBetween={10} pagination={{ clickable: true }} modules={[Navigation, Pagination, Scrollbar, A11y]} className="carroseu"  slidesPerView={3} >
                     <SwiperSlide className="Item fist">
                         <CardShoping className="slide_item"></CardShoping>
                     </SwiperSlide>
@@ -40,6 +39,7 @@ function Shoping(){
                         <CardShoping className="slide_item"></CardShoping>
                     </SwiperSlide>
                 </Swiper>
+            {/* <CardShoping></CardShoping> */}
         </div>
     )
 }

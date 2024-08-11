@@ -2,16 +2,17 @@
     /* margin: 0%; */
     display: flex;
     /* width: 100vmax; */
-    height: 100vb;
+    height: 95vh;
     /* background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-image: url(./../Elements/banner.jpeg); */
     flex-direction: column;
-    border:solid 1px black;
+    /* border:solid 1px black; */
     /* background-color: rgba(18, 17, 29, 0.733); */
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    border-bottom: 1px solid black;
     /* border-top-left-radius: 5%;
     border-top-right-radius: 5%; */
     /* margin-left: 1%; */

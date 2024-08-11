@@ -1,17 +1,20 @@
 .Criadores{
-    margin-top: 10vmin;
-    /* background-color:antiquewhite; */
-    height: 80vh;
+    /* background-color:aqua; */
+    /* margin-top: 10vmin; */
+    /* background-color:rgb(228, 130, 3); */
+    height: 60vh;
     /* border: solid 1px black; */
     display: flex;
     /* grid-template-rows: 1fr 1fr; */
-    flex-direction: column;
+    flex-direction:column;
     /* align-items: center; */
 }
 .Criadores .cards{
-
-    /* display: flex; */
+    /* align-items: center; */
+    height: 40vh;
+    display: flex;
     margin: 0% auto;
+    width: 100%;
     /* background-color: aquamarine; */
     /* padding-bottom: 10%; */
     justify-content: space-around;
@@ -19,6 +22,7 @@
     padding: auto;
 }
 .Criadores .card{
+    width: 10vw;
     display: flex;
     margin-top: 10%;
 }
