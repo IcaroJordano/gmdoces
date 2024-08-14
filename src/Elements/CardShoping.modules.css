@@ -12,6 +12,7 @@
     background-color: white;
     width: 22vw ;                                                                           ;
     height: 58vh;
+    margin-left: 10%;
     margin-top: 5vh;
     overflow:hidden ;
     /* border: solid 1px black; */
@@ -72,7 +73,7 @@ img{
 @media(max-width:425px){
     .card{
         padding: 0%;
-        width: 100%;
+        width: 70vw;
         height: 35vh;
     }
     .card img{

@@ -60,4 +60,7 @@ font-weight: bolder;
         display: flex;
         padding-top: 15%;
     }
+    .left p{
+        font-size: smaller;
+    }
 }

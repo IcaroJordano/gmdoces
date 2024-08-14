@@ -66,34 +66,39 @@ svg{
         /* background-color: yellowgreen; */
     }
     .Text h2{
-        font-size: 3vmax;
+        font-size: 2vmax;
         margin-top: 5%;
     }
     .Text p{
-        margin-top: 1%;
+        margin-top: 4%;
         font-size:3vmin;       
     }
     .Text button{
+        background-color: rgb(255, 209, 6);
         /* margin-top: 1%; */
-        width: 30%;
-        font-size: 2vw;
-        height: 5vmin;
+        width: 40%;
+        font-size: 1vh;
+        height: 7vmin;
         margin: 0%;
+        color:black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .Text .Links{
-        height: 4vmin;
-        width: 30%;
+        height: 5vmin;
+        width: 35%;
     }
     .Text .Link{
         margin-left: 10%;
         margin-top: 10%;
         border-radius: 25%;
         /* margin: 0%; */
-        width: 10px;
-        height:10px;
-}
+        width: 25px;
+        height:15px;
+        background-color: rgb(61, 30, 0);
+    }
     svg{
+        /* background-color: aliceblue; */
         color: white;
-        font-size:7px;
+        font-size:10px;
     }    
 }

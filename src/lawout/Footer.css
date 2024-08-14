@@ -1,8 +1,9 @@
 .Footer{
     width: 100%;
     margin-top: 1px;
-    /* background-color:; */
-    height: 20vmin;
+    /* background-color:black; */
+    overflow: hidden;
+    height: 40vmin;
     border-top: solid 2px gray;
     display: grid;
     /* grid-template-rows: 10% 90%; */
@@ -12,17 +13,19 @@
     /* align-items: center; */
     display: grid;
     /* background-color: aquamarine; */
-    grid-template-rows: 50% 50%;    
+    /* grid-template-rows: 50% 50%;     */
     margin: 0%;
     padding: 0%;
     width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
 }
 .footerText{
     /* padding-left: 25%; */
     /* padding-top: 10%; */
     display: flex;
     /* background-color: aqua; */
-    height: 35vh;
+    height: 20vh;
     /* margin-left: 25vmax; */
     /* margin: 0%; */
     /* justify-content: center; */
@@ -48,7 +51,7 @@
     flex-direction: row;
     width: 10vw;
     margin-left:5vw ;
-    margin-top: 12%;
+    margin-top: 0%;
     /* justify-content: space-around; */
 
 }
@@ -78,18 +81,19 @@ svg{
     /* margin-left: 10%; */
     /* width: 40vw;  */
     margin: 0%;
+    padding: 0%;
     /* background-color: tomato; */
 }
 .linksFooter{
     display: flex;
-    margin-top: 0%;
+    /* margin-top: 0%; */
     /* background-color: blue; */
     width: 100%;
 }
 .linksFooter .links{
-    padding-right: 30%;
+    /* padding-right: 30%; */
     /* margin-right: 10%; */
-    width: 19%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     /* border: solid 1px black; */
@@ -101,11 +105,12 @@ svg{
     text-align: justify;
     width: 15vw;
     /* background-color: aqua; */
-    font-size:20px;
-    margin-bottom: 15%;
+    /* font-size:20px; */
+    margin-bottom: 10%;
     color: rgba(59, 59, 59, 0.842);
     text-decoration: none;
 }
+.links{ margin-left: 15%;}
 
 @media (max-width:425px){
     .links a{

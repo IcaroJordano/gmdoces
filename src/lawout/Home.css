@@ -1,22 +1,10 @@
 .Home{
-    /* margin: 0%; */
     display: flex;
-    /* width: 100vmax; */
     height: 95vh;
-    /* background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-image: url(./../Elements/banner.jpeg); */
     flex-direction: column;
-    /* border:solid 1px black; */
-    /* background-color: rgba(18, 17, 29, 0.733); */
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     border-bottom: 1px solid black;
-    /* border-top-left-radius: 5%;
-    border-top-right-radius: 5%; */
-    /* margin-left: 1%; */
-    /* margin-top: 1%; */
 }
 .secao{
     display: flex;
@@ -53,12 +41,12 @@ body{
 }
 @media(max-width:425px){
     .Home{
-        height: 40vb;
+        height: 35vh;
     }
     .secao{
-        margin-top: 15vmin;
+        margin-top: 0vmin;
     }
-    .Home p{
-
+    .Home .Text h1{
+        font-size: 1px;
     }   
 }

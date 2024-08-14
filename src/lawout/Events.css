@@ -42,7 +42,5 @@
     justify-content: space-around;
 }
 @media(max-width:425px){
-    .Events h1{
-        font-size: x-large;
-    }
+    
 }
