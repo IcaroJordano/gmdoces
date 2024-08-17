@@ -1,9 +1,13 @@
 .Home{
+    /* background-image: url("./../Elements/doces.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
     display: flex;
     height: 95vh;
     flex-direction: column;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    /* border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%; */
     border-bottom: 1px solid black;
 }
 .secao{

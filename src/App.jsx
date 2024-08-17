@@ -5,6 +5,7 @@ import Footer from "./lawout/Footer.jsx"
 import Home from "./lawout/Home.jsx"
 import Events from "./lawout/Events.jsx"
 import Shoping from "./lawout/Shoping.jsx"
+// import { useEffect } from 'react'
 
 function App() {
   return (

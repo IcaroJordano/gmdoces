@@ -61,3 +61,23 @@
     height: 70%;
     color: rgb(87, 87, 87);
 }
+
+
+@media (max-width:500px){
+    .CardCriador{
+        margin: 0 auto ;
+        width: 90vw;
+        height: 23vh;
+    }
+    .top .user{
+        scale: 3;
+        margin: auto;
+        margin-top: 25%;
+    }
+    .bottom{
+        /* width: ; */
+        font-size: small;
+        /* background-color: blue; */
+        height: 100%;
+    }
+}

@@ -1,11 +1,13 @@
 .titulo{
+    color: gray;
     /* background-color: black; */
     overflow:hidden;
     display: flex;
     font-size: 25px;
 }
-@media(max-width:425px){
-    .titulo{
+@media(max-width:525px){
+    .titulo h1{
+        color:aliceblue;
         font-family: 'Courier New', Courier, monospace;
         /* background-color: aqua; */
         /* font-size: 1px; */

@@ -5,6 +5,7 @@
     /* background-color:antiquewhite; */
     height: 100vmin;
     background-color:rgb(255, 227, 243);
+    /* background-color: yellow; */
 
     /* border: solid 1px black; */
     display: flex;
@@ -14,6 +15,7 @@
     justify-content:space-around ;
 
 }.carroseu{
+    margin-top: 5%;
     /* margin-top: 5%; */
     width: 95%;
     /* background-color: black; */
@@ -42,5 +44,17 @@
     justify-content: space-around;
 }
 @media(max-width:425px){
-    
+    .Events{
+        border-top: solid 1px black;
+    }
+    .fist{
+        margin: 0 0;
+    }
+    .slide_item{
+        margin-top: 20%;
+    }
+    .Events .carroseu{
+        height: 40vh;
+        /* background-color: aqua; */
+    }
 }

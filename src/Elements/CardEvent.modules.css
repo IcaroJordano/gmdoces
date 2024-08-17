@@ -50,3 +50,25 @@
     color: white;
 
 }
+
+@media(max-width:500px){
+    .content{
+        width: 50vw;
+        height: 35vh;
+        margin: 0 0 0 1%;
+    }
+    .imagem{
+        align-items: center;
+        overflow: hidden
+    }
+    .imagem h3{
+        font-size: 13px;
+    }
+    .imagem p{
+        padding-top: 5%;
+        text-align: center;
+        border-radius: 0%;
+        /* height: vh; */
+        font-size: 18px;
+    }
+}

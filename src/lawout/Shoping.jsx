@@ -1,3 +1,4 @@
+import { useMediaQuery } from "@uidotdev/usehooks";
 
 import Titulo from "./../Elements/Titulo"
 import "./Shoping.css"
@@ -15,11 +16,12 @@ import 'swiper/css/scrollbar';
 
 
 function Shoping(){
+    const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
     return(
         <div className="Shoping" >
             <Titulo text='SHOPPING'></Titulo>            
             <a href="">See  All</a>
-            <Swiper spaceBetween={10} pagination={{ clickable: true }} modules={[Navigation, Pagination, Scrollbar, A11y]} className="carroseu"  slidesPerView={3} >
+            <Swiper spaceBetween={10} pagination={{ clickable: true }} modules={[Navigation, Pagination, Scrollbar, A11y]} className="carroseu"  slidesPerView={isSmallDevice ? "2" : "3"} >
                     <SwiperSlide className="Item fist">
                         <CardShoping className="slide_item"></CardShoping>
                     </SwiperSlide>

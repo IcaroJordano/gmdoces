@@ -4,7 +4,7 @@ function Titulo({text}){
     return (
         <>
         <p className="titulo" ><h1>{text}</h1>
-        
+            
         </p></>
     )
 }

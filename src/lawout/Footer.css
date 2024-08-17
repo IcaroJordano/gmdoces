@@ -116,4 +116,9 @@ svg{
     .links a{
         font-size:15px;
     }
+    .Footer{
+        margin: 0%;
+        /* flex-direction: column; */
+        height: 30vh;
+    }
 }

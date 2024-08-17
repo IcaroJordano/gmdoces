@@ -11,13 +11,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { useMediaQuery } from "@uidotdev/usehooks";
 
 
 function Events(){
+    const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
     return(
         <div className="Events" >
             <Titulo text={"EVENTOS"}></Titulo>
-            <Swiper spaceBetween={1} pagination={{ clickable: true }}modules={[Navigation, Pagination, Scrollbar, A11y]} className="carroseu"  slidesPerView={3} >
+            <Swiper spaceBetween={10} pagination={{ clickable: true }}modules={[Navigation, Pagination, Scrollbar, A11y]} className="carroseu"  slidesPerView={isSmallDevice ? "2" : "3"} >
                     <SwiperSlide className="Item fist">
                         <CardEvent className="slide_item"></CardEvent>
                     </SwiperSlide>

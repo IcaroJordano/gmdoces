@@ -2,3 +2,11 @@
     background-color: rgb(255, 215, 221);
     background-color: rgb(252, 229, 229);
 } */
+ ::-webkit-scrollbar{
+    display: none;
+    position: none;
+}
+::-webkit-scrollbar-thumb{
+    display: none;
+    position: none;
+}
